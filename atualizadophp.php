@@ -1,11 +1,15 @@
 <?php
+    /*
+    Rafael Gonçalves Marques
+    201613428
+    */
     $file = "message_id.txt";
     
     ########################MegaSena######################################
     for ($i = 1; $i <= 6; $i++) {//gera os 6 numeros
         $n[] = str_pad(rand(1, 60), 2, '0', STR_PAD_LEFT); 
     }
-    sort($n); //ordena os n�meros
+    sort($n); //ordena os números
     $mega = implode(' - ', $n);//exibe os numeros
     ########################MegaSena######################################
 
