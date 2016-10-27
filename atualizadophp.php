@@ -1,8 +1,10 @@
 <?php
+
     /*
     Rafael Gonçalves Marques
     201613428
     */
+
     $file = "message_id.txt";
     
     ########################MegaSena######################################
