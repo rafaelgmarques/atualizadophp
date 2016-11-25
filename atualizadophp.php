@@ -5,6 +5,12 @@
     201613428
     */
 
+	$conecta = mysqli_connect("localhost", "root", "","atualizadophp") or print (mysql_error());
+	//$result = mysqli_query($conecta,"atualizadophp");
+	print "Conexão OK!"; 
+	mysqli_query($conecta,"insert into telegram values (2,'dfsdd','sddfgs',2);"); 
+	mysqli_close($conecta);
+	
     $file = "message_id.txt";
     
     ########################MegaSena######################################
